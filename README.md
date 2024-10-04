@@ -1,26 +1,26 @@
-# Google Play Reviews Scraper and Sentiment Analysis for Vidio Dot Com
+# Scrape Google Play Reviews Menggunakan google-play-scraper
 
-This repository contains a project that scrapes user reviews from the **Vidio Dot Com** app on the Google Play Store using the [`google-play-scraper`](https://pypi.org/project/google-play-scraper/) library. The scraped reviews are exported to an **Excel** file, and sentiment analysis is performed on the reviews using Python, providing insights into user feedback, satisfaction levels, and overall sentiment toward the app.
+Repository ini berisi proyek yang melakukan scraping ulasan pengguna dari aplikasi **Vidio Dot Com** di Google Play Store menggunakan library [`google-play-scraper`](https://github.com/danieliu/google-play-scraper). Ulasan yang diambil diekspor ke file **Excel**, dan analisis sentimen dilakukan untuk memberikan wawasan tentang umpan balik pengguna, tingkat kepuasan, dan sentimen keseluruhan terhadap aplikasi.
 
-## Project Overview
+## Gambaran Proyek
 
-- **Scraping Reviews**: Using the `google-play-scraper` library, reviews from the Vidio Dot Com app are collected and stored in an Excel file.
-- **Sentiment Analysis**: The reviews are analyzed to determine the sentiment (positive, negative, or neutral) using natural language processing techniques with Python libraries.
-- **Visualizations**: Charts and graphs are generated to illustrate the distribution of sentiments and other key metrics related to the reviews.
+- **Scraping Ulasan**: Menggunakan library `google-play-scraper`, ulasan dari aplikasi Vidio Dot Com dikumpulkan dan disimpan dalam file Excel.
+- **Analisis Sentimen**: Ulasan dianalisis untuk menentukan sentimen (positif, negatif, atau netral) menggunakan teknik pengolahan bahasa alami dengan library Python seperti `NLTK` dan `Sastrawi`.
+- **Visualisasi**: Grafik dan diagram dibuat untuk menggambarkan distribusi sentimen dan metrik kunci lainnya terkait ulasan.
 
-## Features
+## Fitur
 
-- **Automated review collection**: Fetch reviews from Google Play for the Vidio Dot Com app.
-- **Sentiment classification**: Classify reviews as positive, negative, or neutral.
-- **Export to Excel**: Save the scraped reviews in Excel format for easy access and further analysis.
-- **Data visualization**: Use Python libraries such as `matplotlib` and `seaborn` to visualize the sentiment analysis results.
+- **Pengumpulan ulasan otomatis**: Mengambil ulasan dari Google Play untuk aplikasi Vidio Dot Com.
+- **Klasifikasi sentimen**: Mengklasifikasikan ulasan sebagai positif, negatif, atau netral.
+- **Ekspor ke Excel**: Menyimpan ulasan yang diambil dalam format Excel untuk akses dan analisis lebih lanjut.
+- **Visualisasi Data**: Menggunakan library Python seperti `matplotlib`, `seaborn`, dan `plotly` untuk memvisualisasikan hasil analisis sentimen.
 
 ## Prerequisites
 
-Ensure you have the following installed:
+Pastikan kamu telah menginstal:
 
 - Python 3.x
-- The following Python libraries:
+- Library Python berikut:
 
 ```bash
 google_play_scraper==1.2.7
